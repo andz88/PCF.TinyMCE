@@ -56,7 +56,6 @@ export class TinyMCEComponent implements ComponentFramework.StandardControl<IInp
 			selector: '#text_editor'+this._domId,
 			width: "100%",
 			height: "100%",
-			skin_url: "./skins",
 			plugins: ['paste', 'link', 'autoresize', 'code'],
 			setup:(ed: any) => {
 				ed.on('change', (e: any) => {
