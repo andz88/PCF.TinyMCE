@@ -83,6 +83,7 @@ export class TinyMCEComponent implements ComponentFramework.StandardControl<IInp
 	{
 		// Add code to update control view
 		this._context = context;
+		this._textValue = this._context.parameters.textField.raw || "";
 	}
 
 	/** 
