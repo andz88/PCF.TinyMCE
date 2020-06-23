@@ -17,6 +17,7 @@ export class TinyMCEComponent implements ComponentFramework.StandardControl<IInp
 	{
 		this._tinymce = require('tinymce/tinymce');
 		require('tinymce/themes/silver');
+		require('tinymce/icons/default');
 
 		// Any plugins you want to use has to be imported
 		require('tinymce/plugins/paste');
