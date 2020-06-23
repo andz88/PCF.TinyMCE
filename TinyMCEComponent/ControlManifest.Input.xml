@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="Andz" constructor="TinyMCEComponent" version="0.0.4" display-name-key="TinyMCEComponent" description-key="TinyMCEComponent description" control-type="standard">
+  <control namespace="Andz" constructor="TinyMCEComponent" version="0.0.7" display-name-key="TinyMCEComponent" description-key="TinyMCEComponent description" control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
-     <property name="textField" display-name-key="textField" description-key="Property_Desc_Key" of-type="Multiple" usage="bound" required="true" />
+    <property name="textField" display-name-key="textField" description-key="Property_Desc_Key" of-type="Multiple" usage="bound" required="true" />
     <!-- 
       Property node's of-type attribute can be of-type-group attribute. 
       Example:
@@ -15,11 +15,10 @@
       <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type-group="numbers" usage="bound" required="true" />
     -->
     <resources>
-      <code path="index.ts" order="1"/>
+      <code path="index.ts" order="1" />
       <css path="skins/content/default/content.css" order="1" />
       <css path="skins/ui/oxide/content.min.css" order="1" />
       <css path="skins/ui/oxide/skin.min.css" order="1" />
-      
       <!-- UNCOMMENT TO ADD MORE RESOURCES
       <css path="css/TinyMCEComponent.css" order="1" />
       <resx path="strings/TinyMCEComponent.1033.resx" version="1.0.0" />
