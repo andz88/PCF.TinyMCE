@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="Andz" constructor="TinyMCEComponent" version="0.0.11np" display-name-key="TinyMCEComponent" description-key="TinyMCEComponent description" control-type="standard">
+  <control namespace="Andz" constructor="TinyMCEComponent" version="0.0.11" display-name-key="TinyMCEComponent" description-key="TinyMCEComponent description" control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <property name="textField" display-name-key="textField" description-key="Property_Desc_Key" of-type="Multiple" usage="bound" required="true" />
     <!-- 
